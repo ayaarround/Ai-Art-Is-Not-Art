@@ -1,0 +1,177 @@
+@font-face {
+    font-family: handwrittening;
+    src: url(../fonts/Handwrittening-Regular.ttf);
+}
+
+@font-face {
+    font-family: handwritten;
+    src: url(../fonts/Handwritten.ttf);
+}
+
+@font-face {
+    font-family: swirly;
+    src: url(../fonts/swirly\ kids.otf);
+}
+
+@font-face {
+    font-family: creative;
+    src: url(../fonts/The-Creative.otf);
+}
+
+nav a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../beeld/Label2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: rgb(237, 229, 222);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    font-family: swirly;
+    text-decoration: none
+}
+
+
+
+nav a {
+
+    position: relative;
+    top: -7em;
+    color: #F18C22;
+}
+
+nav a:hover {
+    color: #E36887
+}
+
+ul {
+    list-style-type: none;
+    display: flex
+}
+
+.pagina1 {
+    background-image: url(../beeld/pag1.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.pagina2 {
+    background-image: url(../beeld/pag2.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+.pagina3 {
+    background-image: url(../beeld/pag3.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
+
+p {
+    font-family: handwritten;
+    width: 12cm;
+    font-size: 1.7em;
+    color: #F18C22;
+}
+
+.blogtekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+    width: 100%;
+    margin-top: -5em;
+}
+
+.wikitekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2em;
+    width: 100%;
+    margin-top: -5em;
+}
+
+.bronnen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+    width: 100%;
+    margin-top: -5em;
+}
+
+.link {
+    color: #F18C22;
+}
+
+.link:visited {
+    color: #F18C22;
+}
+
+.link:hover {
+    color: #E36887;
+    text-decoration: underline;
+}
+
+
+.wikisource {
+    font-family: swirly;
+    color: #faf7f5;
+    -webkit-text-stroke: 1px #F18C22;
+
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: -2em;
+}
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/* met behulp van de tekst op het papier zitten heb ik ai om hulp gevraag. mijn prompt was : ik wil mijn tekst netjes op het schrift,
+sec 1 aan de linker kant en sec 2 aan de rechter kant. Ik moet in flexbox werken! en heb mijn hele code die ik voor de rest zelf heb gedaan erbij gezet voor assitentie. */
+
+
+h1 {
+    font-family: swirly;
+    color: #faf7f5;
+    -webkit-text-stroke: 1px #F18C22;
+    /* met hulp van ai ben ik erachter gekomen hoe ik een stroke moet toevoegen aan tekst. chatgpt mijn promt was: how do i add an outline to my h1 */
+    text-align: center;
+    font-size: 3em;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.titel {
+    position: absolute;
+    color: pink;
+    top: 9em;
+    left: 22.6em;
+    width: 9cm;
+}
+
+.titel2 {
+    position: absolute;
+    color: pink;
+    top: 9em;
+    left: 20.3em;
+    width: 10cm;
+}
